@@ -5,12 +5,8 @@ def lookup(obj):
 class MyClass1(object):
     pass
 
-class MyClass2(object):
-    pass
-
     def my_meth(self):
         pass
 
     print(lookup(MyClass1))
-    print(lookup(MyClass2))
     print(lookup(int))
